@@ -1,7 +1,7 @@
 package com.tml.common.entities;
 
 public enum ResultCode {
-    PARAM_EOOR(10001,"参数错误")
+    PARAM_EOOR(10001,"参数错误"),THIRD_REQ_FAIL(10002,"第三方请求失败")
     
 
     ;
