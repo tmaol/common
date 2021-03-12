@@ -36,4 +36,8 @@ public class Result {
         return getInstance(resultCode.getCode(),resultCode.getMsg());
     }
 
+    public static Result getInstance(ResultCode resultCode, Object data) {
+        return getInstance(resultCode.getCode(),resultCode.getMsg(),data);
+    }
+
 }
